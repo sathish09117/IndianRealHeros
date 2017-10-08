@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smdeveloper.vvsn.indianrealheros">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tab1" />
+        <activity android:name=".Tab2" />
+        <activity android:name=".Tab3" />
+        <activity android:name=".Tab4" />
+        <activity android:name=".Tab5" />
+        <activity android:name=".Tab6" />
+        <activity android:name=".Tab7" />
+        <activity android:name=".Tab8" />
+        <activity android:name=".Tab9" />
+        <activity android:name=".Tab10" />
+        <activity android:name=".Tab11" />
+        <activity android:name=".Tab12" />
+        <activity
+            android:name=".IndianRealHeros"
+            android:label="@string/title_activity_indian_real_heros"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
